@@ -1,0 +1,23 @@
+/*
+#pizza-image{
+    filter: brightness(70%);
+    transition:all .5s;
+}
+
+#pizza-image:hover{
+    filter: brightness(100%);
+} */
+
+#code-lab-pizza{
+    animation: shake 1s infinite linear;
+}
+
+@keyframes shake{
+    from{
+        transform: scale(1.02);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
